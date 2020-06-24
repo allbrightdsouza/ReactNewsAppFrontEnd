@@ -11,3 +11,82 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.line-clamp {
+  transition: line-clamp 5s;
+  display: -webkit-box;
+  display: -moz-box;
+  line-clamp: 4;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.line-clamp-2 {
+  font-size: 0.8em;
+  display: -webkit-box;
+  display: -moz-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.my-card {
+  /* width: fit-content; */
+}
+
+.my-card-Img {
+  /* padding: 5% 0; */
+
+}
+
+a {
+  color: white;
+}
+
+.css-2b097c-container {
+  width: 20%;
+}
+
+.bg-primary {
+  background: rgb(23,18,111);
+  background: linear-gradient(90deg, rgba(23,18,111,1) 0%, rgba(56,69,112,1) 51%, rgba(62,76,120,1) 100%);
+}
+
+@media only screen and (max-width: 991px) {
+  .css-2b097c-container
+  {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .css-2b097c-container
+  {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .css-2b097c-container
+  {
+    width: 75%;
+  }
+}
+
+a {
+  cursor: pointer;
+}
+
+.loader {
+  /* top:50%;  */
+}
+
+.clickable {
+  cursor: pointer;
+}
+div.card {
+  margin: 2%;
+  box-shadow: 1px 3px 1px #9e9e9e;
+}
